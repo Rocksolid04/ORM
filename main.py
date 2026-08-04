@@ -35,6 +35,6 @@ new_things = Thing(description = 'camera',value =500, owner = new_person.id)
 session.add(new_things)
 
 session.commit()
-
+# adding comment
 print(new_person.things)
 print(new_things.person)
